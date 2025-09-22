@@ -1,0 +1,57 @@
+@import url("fonts.css");
+body {
+    background: linear-gradient(135deg, #e2f4fd, #c8e8f8); 
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 20px; /* Zaoblené rohy */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); 
+    padding: 3rem; 
+    text-align: center;
+    transition: transform 0.6s ease-out, box-shadow 0.3s ease-in-out; 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 380px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+button {
+    background-color: #3EB3F2;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    border: none;
+    padding: 1rem;
+    border-radius: 20px; 
+    cursor: pointer;
+    transition: background-color 0.35s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background-color: #2a9cdb; 
+}
+
+.g-login button {
+    background-color: #4285F4; 
+}
+
+.h-login button {
+    background-color: #6c757d; 
+
+}
