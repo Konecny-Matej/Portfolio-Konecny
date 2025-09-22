@@ -206,3 +206,23 @@ footer {
     text-decoration: none;
 
 }
+@media (max-width: 768px) {
+    .info {
+        font-size: 32px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .mainp {
+        font-size: large;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .skills-column {
+        min-width: 100%; 
+        padding: 15px;
+        font-size: medium;
+        text-align: center;
+    }
+}
