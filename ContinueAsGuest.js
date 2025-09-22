@@ -2,5 +2,5 @@ function continueAsGuest() {
         
         sessionStorage.setItem('isLoggedIn', 'true');
         
-        window.location.href = "index.html"; 
+        window.location.href = "main.html"; 
     }
