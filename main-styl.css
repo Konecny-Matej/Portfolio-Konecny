@@ -211,18 +211,35 @@ footer {
         font-size: 32px;
         padding-top: 50px;
         text-align: center;
+
     }
 
     .mainp {
         font-size: large;
         padding-left: 10px;
         text-align: center;
+        line-height: 1.4;
+        padding-right: 10px;
+        flex-direction: column;
+        font-weight: 500 bold;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+
     }
 
     .skills-column {
         min-width: 100%; 
         padding: 15px;
         font-size: medium;
-        text-align: center;
+        text-align: start;
+        line-height: 1.4;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+
     }
 }
+
