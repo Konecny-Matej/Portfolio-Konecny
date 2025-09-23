@@ -10,7 +10,7 @@ loginBox.addEventListener('mousemove', (e) => {
 
    
     const rotateY = mouseX / 20;
-    const rotateX = mouseY / 10;
+    const rotateX = -mouseY / 10;
 
     
     loginBox.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
@@ -21,6 +21,7 @@ loginBox.addEventListener('mouseleave', () => {
     
     loginBox.style.transform = 'rotateX(0) rotateY(0)';
 });
+
 
 
 
